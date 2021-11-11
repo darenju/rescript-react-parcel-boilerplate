@@ -4,7 +4,7 @@
   "description": "A simple, straight-forward ReScript and React boilerplate using Parcel to build.",
   "scripts": {
     "build": "rescript build; parcel build public/index.html",
-    "clean": "rescript clean; parcel clean",
+    "clean": "rescript clean",
     "dev": "parcel public/index.html",
     "start": "rescript build -w",
     "test": "jest"

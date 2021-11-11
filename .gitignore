@@ -18,16 +18,14 @@
 *.annot
 *.cmj
 *.bak
-lib/bs
 *.mlast
 *.mliast
 .vscode
 .merlin
 .bsb.lock
 .parcel-cache
+*.bs.js
 /node_modules/
 /dist/
 /lib/
 /tests/__snapshots__
-/src/*/*.js
-/tests/**/*/*.js

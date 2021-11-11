@@ -21,7 +21,7 @@
   ],
   "package-specs": {
     "module": "commonjs",
-    "suffix": ".js",
+    "suffix": ".bs.js",
     "in-source": true
   },
   "reason": {
