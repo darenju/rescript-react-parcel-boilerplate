@@ -1,0 +1,30 @@
+{
+  "name": "rescript-react-snowpack-boilerplate",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "tests",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
+  "bs-dependencies": [
+    "@rescript/react"
+  ],
+  "bs-dev-dependencies": [
+    "@rescriptbr/react-testing-library",
+    "@glennsl/bs-jest"
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "suffix": ".js",
+    "in-source": true
+  },
+  "reason": {
+    "react-jsx": 3
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "rescript-react-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "A simple, straight-forward ReScript and React boilerplate using Parcel to build.",
+  "scripts": {
+    "build": "rescript build; parcel build public/index.html",
+    "clean": "rescript clean; parcel clean",
+    "dev": "parcel public/index.html",
+    "start": "rescript build -w",
+    "test": "jest"
+  },
+  "keywords": [
+    "rescript",
+    "react",
+    "parcel",
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rescript": "^9.1.4"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.7.0",
+    "@rescriptbr/react-testing-library": "^1.0.1",
+    "parcel": "^2.0.1"
+  },
+  "jest": {
+    "testMatch": [
+      "**/*_test.js"
+    ]
+  }
+}
